@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.grey,
       ),
-      initialRoute: "/wallet",
+      initialRoute: "/",
       routes: {
         '/': (context) => LoginPage(),
         '/home': (context) => const HomePage(),

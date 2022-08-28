@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                   selectedColor: Colors.black,
                 ),
               ),
-              Expanded(child: ToDoList()),
+              const Expanded(child: ToDoList()),
             ],
           )),
     );
